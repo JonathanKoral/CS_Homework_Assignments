@@ -1,10 +1,12 @@
-// Name: Largest/Smallest
-// Copyright: 2024
-// Author: Jonathan J. Koral
-// Date: 03-07-24 13:55
-// Description: This program will ask to input 10 numbers and then go
-// through all the numbers and find out which number is the largest, and
-// which number is the smallest.
+/*
+Name: Largest/Smallest
+Copyright: 2024
+Author: Jonathan J. Koral
+Date: 03-07-24 13:55
+Description: This program will ask to input 10 numbers and then go
+through all the numbers and find out which number is the largest, and
+which number is the smallest.
+*/
 
 #include <iostream>
 using namespace std;
@@ -12,6 +14,7 @@ const int MAX_NUMBERS = 10;
 int numArray[MAX_NUMBERS];
 void getNumbers (int[]);
 
+// printNumber was to check if getNumbers was working properly.
 //  void printNumber(int[]);
 int getLargest (int[]);
 int getSmallest (int[]);
